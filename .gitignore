@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+*.env
+
+# macOS / editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Runtime memory / vector stores / uploads
+simplemem_memory_data/
+legal_omni_memory_data/
+legal_multimodal_uploads/
+omni_memory_data/
+lancedb_data/
+
+# Runtime logs and generated chat memory
+*.log
+legal_ai_memory_log.jsonl
+ask_ai_documents.json
+ask_ai_embedding_cache.json
+ask_ai_memory_log.jsonl
+ask_ai_retrieval_config.json
+ask_ai_simplemem_config.json
+ask_ai_auto_improve_state.json
+ask_ai_evolvemem_failure_log.jsonl
+ask_ai_evolvemem_history.jsonl
+ask_ai_simplemem_data/
+ask_ai_simplemem_evolvemem_cache/
+ask_ai_simplemem_evolvemem_results/
+ask_ai_full_evolvemem_cache/
+ask_ai_full_evolvemem_results/
+ask_ai_full_evolvemem_summary.json
+
+# EvolveMem runtime outputs
+simplemem_evolvemem_cache/
+simplemem_evolvemem_results/
+
+# Browser/app temporary files
+tmp/
+uploads/
+ask_ai_uploads/

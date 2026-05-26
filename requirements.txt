@@ -1,0 +1,15 @@
+# Install SimpleMem from the upstream project, then install these support deps.
+# If you are developing inside a cloned SimpleMem repo:
+#   pip install -e /path/to/SimpleMem
+#
+# Upstream SimpleMem:
+#   https://github.com/aiming-lab/SimpleMem
+
+openai>=1.0.0
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+rank_bm25>=0.2.2
+PyMuPDF>=1.23.0
+pypdf>=4.0.0
+Pillow>=9.0.0
+
