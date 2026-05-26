@@ -9,6 +9,9 @@ provides the memory and evolution foundation; this project provides the local
 browser UI, OpenRouter model integration, document ingestion, and legal Ask AI
 workflow.
 
+Project write-up:
+[Building a Legal AI Application with SimpleMem and AutoResearch](https://mohammed840.github.io/projects/2026-05-27-simplemem-legal-ai/?v=d3388c4)
+
 ## Current Scope
 
 - Ask AI browser interface.
